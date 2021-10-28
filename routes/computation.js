@@ -9,7 +9,7 @@ var cbrt;
 
 router.get("/", function (req, res, next) {
   num1 = Math.random() * (100 - 1) + 1;
-  atan2 = Math.atan2(num1);
+  atan2 = Math.atan2(60);
   atanh = Math.atanh(num1);
   cbrt = Math.cbrt(num1) ;
   res.send(`atan2 of ${num1} is: ${atan2} <br>
